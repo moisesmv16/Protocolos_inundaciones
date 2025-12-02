@@ -1,0 +1,68 @@
+[
+  {
+    "id": "inundacion_severa",
+    "titulo": "Protocolo: Inundación severa",
+    "descripcion": "Calles con nivel de agua alto, riesgo para personas y vehículos.",
+    "pasos": [
+      "Verificar primero la seguridad del equipo antes de entrar a la zona.",
+      "Identificar puntos de acceso y salida seguros (calles altas, rampas, explanadas).",
+      "Solicitar apoyo de tránsito para cierre de calles si el nivel de agua supera el nivel de banqueta.",
+      "Evitar que personas crucen corrientes por encima de la rodilla; redirigirlas a zonas seguras.",
+      "Registrar nivel aproximado de agua y posibles daños visibles (vehículos, viviendas, postes).",
+      "Notificar al centro de mando sobre necesidades críticas (ambulancias, refugios, bombas de achique)."
+    ],
+    "equipo": [
+      "Impermeable y botas de hule.",
+      "Chaleco reflejante.",
+      "Radio o celular con batería suficiente.",
+      "Linterna si es de noche."
+    ]
+  },
+  {
+    "id": "encharcamiento_moderado",
+    "titulo": "Protocolo: Encharcamiento moderado",
+    "descripcion": "Encharcamientos que dificultan el tránsito pero sin arrastre fuerte.",
+    "pasos": [
+      "Revisar coladeras cercanas y retirar basura superficial si es seguro hacerlo.",
+      "Reportar al área de servicios públicos si el encharcamiento persiste.",
+      "Verificar si el agua está entrando a casas o locales.",
+      "Tomar evidencia fotográfica para registro histórico."
+    ],
+    "equipo": [
+      "Guantes de trabajo.",
+      "Herramienta básica para retirar basura (si está autorizado)."
+    ]
+  },
+  {
+    "id": "arbol_caido",
+    "titulo": "Protocolo: Árbol caído o ramas grandes",
+    "descripcion": "Árbol o ramas que obstruyen vialidad o representan riesgo de caída.",
+    "pasos": [
+      "Verificar si hay cables eléctricos involucrados; si los hay, NO acercarse y reportar de inmediato a la compañía de luz.",
+      "Delimitar la zona con cinta o conos para evitar paso de peatones/vehículos.",
+      "Registrar ubicación exacta y tomar evidencia fotográfica.",
+      "Notificar al área de Parques y Jardines o Protección Civil para retiro seguro."
+    ],
+    "equipo": [
+      "Chaleco reflejante.",
+      "Cinta de acordonamiento o conos.",
+      "Guantes de trabajo."
+    ]
+  },
+  {
+    "id": "auto_varado",
+    "titulo": "Protocolo: Vehículo varado en zona inundada",
+    "descripcion": "Automóvil o camioneta atrapado en zona de encharcamiento o inundación.",
+    "pasos": [
+      "Priorizar la integridad de las personas: apoyar a evacuar del vehículo solo si es seguro.",
+      "Evitar intentar mover el vehículo si el agua tiene corriente fuerte o nivel alto.",
+      "Coordinar con tránsito para cerrar el tramo si hay riesgo de que otros vehículos queden varados.",
+      "Registrar placas y condiciones del vehículo para el reporte."
+    ],
+    "equipo": [
+      "Chaleco reflejante.",
+      "Linterna si es de noche.",
+      "Radio / comunicación con tránsito."
+    ]
+  }
+]
