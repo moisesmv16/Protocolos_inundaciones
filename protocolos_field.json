@@ -1,68 +1,186 @@
 [
   {
-    "id": "inundacion_severa",
-    "titulo": "Protocolo: Inundación severa",
-    "descripcion": "Calles con nivel de agua alto, riesgo para personas y vehículos.",
-    "pasos": [
-      "Verificar primero la seguridad del equipo antes de entrar a la zona.",
-      "Identificar puntos de acceso y salida seguros (calles altas, rampas, explanadas).",
-      "Solicitar apoyo de tránsito para cierre de calles si el nivel de agua supera el nivel de banqueta.",
-      "Evitar que personas crucen corrientes por encima de la rodilla; redirigirlas a zonas seguras.",
-      "Registrar nivel aproximado de agua y posibles daños visibles (vehículos, viviendas, postes).",
-      "Notificar al centro de mando sobre necesidades críticas (ambulancias, refugios, bombas de achique)."
+    "titulo": "Atención inicial en calle inundada con vehículos varados",
+    "descripcion_corta": "Pasos claros para atender una calle con agua a media llanta y uno o varios vehículos atrapados.",
+    "antes": [
+      "Verificar en radio o sistema FloodGuard si la colonia ya está reportada como zona crítica para coordinarse con otras brigadas.",
+      "Revisar que el equipo de protección personal esté completo: chaleco reflectante, botas de hule, guantes, impermeable, lámpara.",
+      "Solicitar información del tipo de vehículos involucrados (particulares, transporte público, carga ligera) y número de personas.",
+      "Identificar rutas de acceso altas que eviten cruzar por el punto más profundo de la inundación.",
+      "Confirmar con el centro de mando si hay reporte de cables caídos o postes en riesgo en esa zona.",
+      "Cargar conos, cinta de acordonamiento y, si se cuenta, medidor de nivel de agua (o marcar referencias visuales)."
     ],
-    "equipo": [
-      "Impermeable y botas de hule.",
-      "Chaleco reflejante.",
-      "Radio o celular con batería suficiente.",
-      "Linterna si es de noche."
+    "durante": [
+      "Detener la unidad de brigada en zona segura, sin bloquear rutas de evacuación y evitando partes bajas de la calle.",
+      "Realizar una evaluación visual rápida del nivel de agua, corriente y presencia de objetos flotando o tapas de registro levantadas.",
+      "Acordonar la zona con conos y cinta, priorizando impedir que nuevos vehículos intenten entrar al área inundada.",
+      "Acercarse a los vehículos varados solo si el nivel de agua y la corriente lo permiten y no hay indicios de riesgo eléctrico.",
+      "Brindar indicaciones claras a las personas atrapadas: permanecer dentro del vehículo si la corriente es fuerte y no hay filtraciones peligrosas.",
+      "Si es seguro evacuar, ayudar a las personas a salir hacia un punto alto, caminando siempre en sentido contrario a la corriente y apoyándose en barandales o paredes.",
+      "Reportar por radio el número de personas atendidas, estado de los vehículos y si se requiere apoyo de grúa o ambulancia.",
+      "Tomar fotografías del nivel de agua y de la calle para registro en FloodGuard, respetando siempre la privacidad de las personas.",
+      "Verificar constantemente la evolución del nivel de agua para decidir si se mantiene el cierre o se puede reabrir parcialmente."
+    ],
+    "despues": [
+      "Informar al centro de mando que la zona quedó controlada, indicando si el encharcamiento continúa o ya disminuyó.",
+      "Registrar en la app observaciones clave: causas probables (coladeras tapadas, desbordamiento, obras en la zona).",
+      "Actualizar el estado del reporte a \"Completado\" solo cuando ya no exista riesgo inmediato para peatones o conductores.",
+      "Si se detectan daños a infraestructura (banquetas rotas, tapas levantadas, baches profundos), levantar un comentario dirigido a Obras Públicas.",
+      "Compartir en la bitácora de la brigada lecciones aprendidas: qué funcionó bien y qué se puede mejorar en la próxima intervención.",
+      "Revisar el estado del equipo utilizado (botas, impermeables, radios) y limpiarlo o reportar daños."
+    ],
+    "notas_extra": [
+      "Evitar arriesgar al personal para rescatar vehículos: la prioridad siempre son las personas.",
+      "No permitir que curiosos se acerquen a grabar videos en zonas de mayor profundidad.",
+      "Recordar que el agua turbia puede ocultar hoyos, registros abiertos o material punzocortante."
     ]
   },
   {
-    "id": "encharcamiento_moderado",
-    "titulo": "Protocolo: Encharcamiento moderado",
-    "descripcion": "Encharcamientos que dificultan el tránsito pero sin arrastre fuerte.",
-    "pasos": [
-      "Revisar coladeras cercanas y retirar basura superficial si es seguro hacerlo.",
-      "Reportar al área de servicios públicos si el encharcamiento persiste.",
-      "Verificar si el agua está entrando a casas o locales.",
-      "Tomar evidencia fotográfica para registro histórico."
+    "titulo": "Revisión y destape seguro de coladeras críticas",
+    "descripcion_corta": "Guía para intervenir de forma segura en coladeras que están provocando encharcamiento severo.",
+    "antes": [
+      "Identificar cuál es la coladera reportada como crítica en el mapa de FloodGuard o por referencia del ciudadano.",
+      "Confirmar que el personal cuenta con guantes gruesos, herramienta para levantar rejillas y chaleco reflectante.",
+      "Revisar si hay historial en la zona de coladeras con estructura dañada o hundimientos.",
+      "Coordinar con Tránsito Municipal si la coladera se localiza en una vialidad de alto flujo vehicular.",
+      "Analizar pronóstico de lluvia de las próximas horas para valorar si el destape tendrá impacto o solo será temporal."
     ],
-    "equipo": [
-      "Guantes de trabajo.",
-      "Herramienta básica para retirar basura (si está autorizado)."
+    "durante": [
+      "Colocar la unidad y los conos de seguridad de manera que los vehículos reduzcan velocidad al aproximarse a la zona de trabajo.",
+      "Observar el comportamiento del agua alrededor de la coladera: remolinos, burbujeo o levantamiento de la tapa indican presión en la red.",
+      "Si existe presión evidente en el drenaje, evitar levantar totalmente la tapa; hacerlo de forma parcial y siempre desde una posición estable.",
+      "Retirar basura y sólidos visibles usando herramientas (ganchos, palas pequeñas) sin introducir manos directamente.",
+      "Pedir apoyo a otro brigadista para vigilar el tránsito mientras se trabaja en la coladera.",
+      "Una vez mejorado el flujo del agua, colocar de nuevo la tapa en su posición correcta y asegurarse de que no quede floja.",
+      "Tomar fotografía del antes y después para evidenciar la intervención y anexarla al reporte."
+    ],
+    "despues": [
+      "Registrar en FloodGuard el tipo de residuos encontrados (plástico, hojas, tierra, material de construcción).",
+      "Actualizar el estado del reporte a \"En curso\" o \"Completado\" según si aún se requiere monitoreo posterior.",
+      "En caso de encontrar daños estructurales en la coladera, crear una nota dirigida al área de mantenimiento urbano.",
+      "Registrar si el nivel del encharcamiento disminuyó y en cuánto tiempo, para análisis posterior.",
+      "Informar al centro de mando si se requiere señalética permanente en la zona (reductores de velocidad, advertencias)."
+    ],
+    "notas_extra": [
+      "Nunca introducir manos desnudas en el drenaje: riesgo de cortaduras, infecciones o contacto con objetos punzocortantes.",
+      "Evitar pararse sobre tapas que muestren movimiento o hundimiento.",
+      "Si se perciben olores fuertes o gases, retirarse de inmediato y reportar como posible riesgo adicional."
     ]
   },
   {
-    "id": "arbol_caido",
-    "titulo": "Protocolo: Árbol caído o ramas grandes",
-    "descripcion": "Árbol o ramas que obstruyen vialidad o representan riesgo de caída.",
-    "pasos": [
-      "Verificar si hay cables eléctricos involucrados; si los hay, NO acercarse y reportar de inmediato a la compañía de luz.",
-      "Delimitar la zona con cinta o conos para evitar paso de peatones/vehículos.",
-      "Registrar ubicación exacta y tomar evidencia fotográfica.",
-      "Notificar al área de Parques y Jardines o Protección Civil para retiro seguro."
+    "titulo": "Evacuación preventiva de viviendas cercanas a bordo de río",
+    "descripcion_corta": "Procedimiento para evacuar de manera ordenada a familias ubicadas en zona de posible desbordamiento.",
+    "antes": [
+      "Solicitar al centro de mando el nivel actual del río y la tendencia (subiendo, estable, bajando).",
+      "Identificar en el mapa las manzanas y calles más cercanas al bordo con historial de inundaciones.",
+      "Coordinar con líderes vecinales o comités locales para difundir el mensaje de posible evacuación.",
+      "Definir junto con Protección Civil el punto o los puntos de reunión seguros (escuela, centro comunitario, templo).",
+      "Revisar disponibilidad de transporte de apoyo (camionetas, camiones) para personas con poca movilidad.",
+      "Preparar mensajes claros y cortos para explicar a las familias el motivo de la evacuación preventiva."
     ],
-    "equipo": [
-      "Chaleco reflejante.",
-      "Cinta de acordonamiento o conos.",
-      "Guantes de trabajo."
+    "durante": [
+      "Recorrer casa por casa empezando por las viviendas más cercanas al bordo o en partes más bajas.",
+      "Presentarse con nombre y dependencia para generar confianza y explicar que se trata de una medida preventiva.",
+      "Pedir a las familias que preparen rápidamente una mochila con documentos importantes, medicamentos y ropa básica.",
+      "Identificar personas enfermas, adultas mayores, niñas y niños para priorizar su traslado.",
+      "Acompañar a las familias al punto de reunión designado, procurando que nadie se quede atrás.",
+      "Registrar cuántas personas fueron evacuadas por vivienda, incluyendo mascotas si es posible.",
+      "Mantener comunicación constante con el centro de mando para informar avance por calles y manzanas."
+    ],
+    "despues": [
+      "Confirmar con el centro de mando cuando todas las viviendas prioritarias hayan sido visitadas.",
+      "Entregar el conteo de personas evacuadas y ubicar en un croquis las casas donde la gente decidió permanecer.",
+      "Registrar en FloodGuard las calles o tramos donde fue más difícil convencer a las personas para futuras campañas de sensibilización.",
+      "Una vez que el nivel del río baje y se autorice el regreso, acompañar a las familias si se requiere.",
+      "Documentar en la bitácora de brigada las principales dudas o resistencias de la población para mejorar la comunicación en futuros eventos."
+    ],
+    "notas_extra": [
+      "Evitar generar pánico: hablar con tono firme pero tranquilo, enfatizando que se trata de prevención.",
+      "Respetar que algunas personas decidan no evacuar, pero dejar claro el riesgo y registrar sus datos para seguimiento.",
+      "Priorizar siempre a niñas, niños, personas mayores y personas con discapacidad."
     ]
   },
   {
-    "id": "auto_varado",
-    "titulo": "Protocolo: Vehículo varado en zona inundada",
-    "descripcion": "Automóvil o camioneta atrapado en zona de encharcamiento o inundación.",
-    "pasos": [
-      "Priorizar la integridad de las personas: apoyar a evacuar del vehículo solo si es seguro.",
-      "Evitar intentar mover el vehículo si el agua tiene corriente fuerte o nivel alto.",
-      "Coordinar con tránsito para cerrar el tramo si hay riesgo de que otros vehículos queden varados.",
-      "Registrar placas y condiciones del vehículo para el reporte."
+    "titulo": "Atención a peatones en zonas de encharcamiento profundo",
+    "descripcion_corta": "Acciones para proteger a peatones que deben cruzar o transitar cerca de agua a media pantorrilla o mayor.",
+    "antes": [
+      "Identificar los puntos más transitados (paradas de camión, cruces de calles, entradas a escuelas o mercados).",
+      "Verificar que el personal cuenta con chalecos reflectantes visibles y lámparas si es horario nocturno.",
+      "Coordinar con Tránsito Municipal para posibles cierres parciales de carriles y apoyo en desvíos.",
+      "Revisar si el encharcamiento está asociado a coladeras tapadas o a escurrimientos de calles superiores."
     ],
-    "equipo": [
-      "Chaleco reflejante.",
-      "Linterna si es de noche.",
-      "Radio / comunicación con tránsito."
+    "durante": [
+      "Acordonar la parte más profunda del encharcamiento para obligar a peatones a usar zonas menos riesgosas.",
+      "Acompañar a personas con dificultad para caminar, cargando mochilas o bolsas pesadas si es necesario.",
+      "Advertir verbalmente sobre el riesgo de pisar registros abiertos, baches cubiertos o banquetas dañadas.",
+      "Ubicar una zona temporal de espera donde la gente pueda refugiarse mientras baja el nivel del agua.",
+      "Si alguna persona cae o se golpea, brindar primeros auxilios básicos y solicitar ambulancia si es necesario.",
+      "Registrar en FloodGuard cualquier incidente (caídas, lesiones) asociado al punto crítico."
+    ],
+    "despues": [
+      "Informar al centro de mando cuando el tránsito peatonal vuelva a ser seguro sin acompañamiento constante.",
+      "Actualizar el reporte con comentarios sobre baches, escalones peligrosos u otros riesgos detectados.",
+      "Sugerir la instalación de barandales, rampas u otras medidas físicas si el problema es recurrente.",
+      "Registrar aprendizajes sobre horarios y grupos de población más afectados (estudiantes, personas trabajadoras, adultos mayores)."
+    ],
+    "notas_extra": [
+      "Nunca minimizar la caída de una persona adulta mayor, aunque se levante por su propio pie.",
+      "Evitar discusiones con peatones que insistan en cruzar por zonas acordonadas; reiterar el riesgo y documentar la situación.",
+      "Recordar que encharcamientos relativamente pequeños pueden ocultar riesgos serios bajo el agua."
+    ]
+  },
+  {
+    "titulo": "Coordinación rápida con transporte público en rutas afectadas",
+    "descripcion_corta": "Protocolo para informar y coordinar con operadores de transporte público cuando sus rutas atraviesan zonas inundadas.",
+    "antes": [
+      "Identificar qué rutas de transporte público cruzan la zona crítica usando mapas locales o información del centro de mando.",
+      "Confirmar con operadores o líderes de ruta los puntos habituales de ascenso y descenso en la zona afectada.",
+      "Revisar en FloodGuard si hay reportes previos de camiones atrapados o desviados en la misma ubicación.",
+      "Preparar mensajes cortos para compartir por radio o teléfono con despachadores de rutas."
+    ],
+    "durante": [
+      "Al llegar a la zona, evaluar si el paso es seguro solo para camiones, o si se requiere cierre total.",
+      "Contactar al despachador o responsable de ruta para recomendar desvíos temporales y paradas alternativas.",
+      "Informar a las personas usuarias que ya se encuentran en la zona sobre los cambios temporales de ruta.",
+      "Registrar placas o número económico de unidades que se vean obligadas a desviarse por la inundación.",
+      "Solicitar apoyo para anunciar en redes o canales oficiales los desvíos, si la inundación se prevé prolongada."
+    ],
+    "despues": [
+      "Confirmar con el despachador cuando la vialidad vuelva a ser segura para reanudar la ruta normal.",
+      "Actualizar el reporte con los horarios en que se implementaron y levantaron los desvíos.",
+      "Documentar propuestas de ajustes permanentes en la ruta si la afectación es recurrente.",
+      "Registrar comentarios de operadores sobre otros puntos que consideren críticos en temporadas de lluvia."
+    ],
+    "notas_extra": [
+      "Evitar confrontaciones con operadores que quieran cruzar a la fuerza; en caso extremo, pedir apoyo de Tránsito.",
+      "Recordar que desviar rutas a tiempo puede prevenir que una unidad quede varada con muchas personas a bordo."
+    ]
+  },
+  {
+    "titulo": "Evaluación rápida de daños tras bajada de nivel de agua",
+    "descripcion_corta": "Checklist para una revisión rápida de daños en la vía pública y viviendas una vez que el agua se ha retirado.",
+    "antes": [
+      "Esperar indicación del centro de mando de que es seguro ingresar a la zona (sin riesgo de nuevas avenidas de agua).",
+      "Preparar formatos o dispositivos con la app para registrar hallazgos: viviendas afectadas, daños visibles, obstrucciones.",
+      "Verificar que el personal cuente con botas, guantes y, si es posible, mascarillas para evitar contacto directo con lodo contaminado."
+    ],
+    "durante": [
+      "Recorrer la zona siguiendo una ruta definida para no duplicar trabajo con otras brigadas.",
+      "Registrar fotografías georreferenciadas de puntos con daños visibles en pavimento, banquetas, bardas y muros.",
+      "Preguntar brevemente a las familias si el agua entró a sus viviendas y hasta qué altura.",
+      "Documentar presencia de lodo, basura acumulada, animales muertos u otros riesgos sanitarios.",
+      "Verificar si hay olores a gas o fugas visibles de agua potable y reportarlas de inmediato.",
+      "Anotar negocios afectados (tiendas, talleres, mercados) y tipo de daño aparente."
+    ],
+    "despues": [
+      "Cargar toda la información en FloodGuard o en el sistema que utilice el municipio para evaluación de daños.",
+      "Clasificar los hallazgos por tipo de prioridad: riesgos a la vida, riesgos sanitarios, daños estructurales, daños menores.",
+      "Compartir un resumen de daños con el centro de mando para canalizar apoyos a corto y mediano plazo.",
+      "Registrar recomendaciones de la brigada para mejorar respuesta en futuros eventos en la misma zona."
+    ],
+    "notas_extra": [
+      "Evitar prometer apoyos específicos a las familias; canalizar siempre la información por los canales oficiales.",
+      "Recordar que las personas pueden estar en shock o molestas; escuchar con respeto y empatía."
     ]
   }
 ]
